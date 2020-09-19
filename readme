@@ -12,9 +12,15 @@ git 설치
 
 .gitignore : git add 제외 파일 설정
 
-5. git commit : 깃 대상 저장 Initial commit , -m "메시지입력"
+5. git commit : 깃 대상 저장 Initial commit , -m "메시지입력" , -a git add 기능을 같이 수행함
 
 6. git 상에서의 Author 변경
 git config --global user.email "메일주소" : git log 상의 메일 변경 
 git config --global user.name "" : git log 상의 이름 변경
+
+git log 
+git shortlog
+
+7. git checkout -- 파일명 : 상태를 돌린다
+
 
