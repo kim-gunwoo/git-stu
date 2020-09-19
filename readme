@@ -15,12 +15,42 @@ git 설치
 5. git commit : 깃 대상 저장 Initial commit , -m "메시지입력" , -a git add 기능을 같이 수행함
 
 6. git 상에서의 Author 변경
-git config --global user.email "메일주소" : git log 상의 메일 변경 
-git config --global user.name "" : git log 상의 이름 변경
+    git config --global user.email "메일주소" : git log 상의 메일 변경 
+    git config --global user.name "" : git log 상의 이름 변경
 
+// 로그 조회
 git log 
 git shortlog
 
 7. git checkout -- 파일명 : 상태를 돌린다
 
+8. git diff : 변경 사항 확인
 
+9. git remote , clone : 깃 가져오기
+    git remote get-url origin : 깃 확인
+
+10. git push : 서버로 올림
+
+11. git pull : 서버에서 받음
+    git fetch : full 은 merge 작업도 같이 진행하여 local에 바로 반영 , fetch 는 따로 merge 작업을 해야함
+
+12. git reset HEAD~1 : 현재위치에서 바로 하나 전으로 상태 변경 , 커밋 기록을 지움
+HEAD : 현재 커밋 위치
+    --soft : Staged 단계
+    --mixed : Modified 단계  v
+    --hard : Untracked 단계
+
+13. git revert : 수정 내역으로 커밋함
+
+14. git branch : 브랜치 생성 , 브랜치 이동
+    git checkout {브랜치명}
+    git branch -D {브랜치명} 브랜치 삭제
+
+15. git merge 마스터, 브랜치와 비교
+    git rebase 가지를 마스터로만 정리
+
+16. git cherry-pick 
+
+17. git tag : 태그를 만듬, 아이디 대신 태그명으로 접근할 수 있음
+
+18. git stash (apply) : 작업중 임시저장 apply 로 다시 돌아갈 수 있음
