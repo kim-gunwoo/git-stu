@@ -2,4 +2,19 @@
 // Git , Github
 git 설치 
 
-// 
+1. git init : 프로젝트 생성
+
+2. git status : 상태 확인
+
+3. git add : 깃 관리 대상 지정
+
+4. git rm --cahed : 깃 관리 대상 제거 , --cached 가 없을 경우 삭제 될 수 있음 -rf 폴더, 파일 경우 추가 
+
+.gitignore : git add 제외 파일 설정
+
+5. git commit : 깃 대상 저장 Initial commit , -m "메시지입력"
+
+6. git 상에서의 Author 변경
+git config --global user.email "메일주소" : git log 상의 메일 변경 
+git config --global user.name "" : git log 상의 이름 변경
+
