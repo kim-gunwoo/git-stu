@@ -1,3 +1,10 @@
+status code
+1xx : 정보를 주기위한 응답
+2xx : 통신 성공
+3xx : 리다이렉션
+4xx : 클라이언트 에러 
+5xx : 서버 에러
+
 
 // Git , Github
 git 설치 
